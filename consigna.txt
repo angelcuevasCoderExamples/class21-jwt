@@ -1,0 +1,6 @@
+A partir del servidor de express que estamos construyendo:
+
+1 - Configurar la creación del token para que ésta solo tenga duración de 1 minuto.
+2 - Crear tres vistas, vista base, vista de registro y vista de login. (puedes hacerlo sin motor de plantillas).
+3 - Al cargar la página principal (‘/’), si existe una sesión iniciada, se mostrarán los datos del usuario en cuestión (obtenidos mediante una consulta con el token debidamente adjunto en el encabezado de la petición de datos). Caso contrario, se deberá cargar automáticamente la pantalla de login.
+4 - Corroborar el envío del token al front para su futuro almacenamiento. 
